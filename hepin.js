@@ -9,7 +9,7 @@ const editdata = (idx) => {
   const recoredit = fruits.find((item, index) => {
     return (index === idx)
   });
-  console.log(recoredit);
+  // console.log(recoredit);
 
   document.getElementById("fname").value = recoredit.fname;
   document.getElementById("email").value = recoredit.email;
